@@ -75,7 +75,7 @@ public class ValidationRegEx {
 
 	public static boolean emailValidator(String email) {
 		email = email.toLowerCase();
-		boolean boole = Pattern.matches("[a-z0-9]{5,30}@[a-z0-9]{5,10}.[a-z0-9]{2,3}", email);
+		boolean boole = Pattern.matches("[A-Za-z0-9]{5,30}@[A-Za-z0-9]{5,10}.[A-Za-z0-9]{2,3}", email);
 		return boole;
 	}
 
